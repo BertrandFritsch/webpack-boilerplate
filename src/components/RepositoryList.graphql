@@ -1,0 +1,38 @@
+
+query RepositoryList($first: Int, $after: String, $query: String!) {
+  search(first: $first, after: $after, query: $query, type: REPOSITORY) {
+    pageInfo {
+      hasPreviousPage
+      endCursor
+      hasNextPage
+      startCursor
+    }
+    repositoryCount
+    edges {
+      node {
+        ...on Repository {
+          url
+          updatedAt
+          description
+          homepageUrl
+          nameWithOwner
+          primaryLanguage {
+            id, name, color
+          }
+          stargazerCount
+          openGraphImageUrl
+          repositoryTopics(first: 5) {
+            edges {
+              node {
+                topic {
+                  name
+                }
+                url
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,48 @@
+
+.message {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &.error-message {
+    color: red;
+  }
+}
+
+.container {
+  margin: 0 2rem;
+}
+
+.header:global(.MuiTypography-root) {
+  padding: 2rem 0 0;
+  font-size: 2rem;
+}
+
+.repository {
+  border-top: 1px solid #ababab;
+  padding: 2rem 0 2rem;
+}
+
+.url {
+  > :global(a) {
+    color: inherit;
+    font-size: 1.5rem;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+.topics {
+  margin: .5rem 0 0;
+}
+
+.topic:global(.MuiChip-root) {
+  margin: 0 .5rem 0 0;
+
+  &:last-child {
+    margin: 0;
+  }
+}

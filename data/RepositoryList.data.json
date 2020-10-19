@@ -1,0 +1,1186 @@
+{
+  "data": {
+    "search": {
+      "pageInfo": {
+        "hasPreviousPage": false,
+        "endCursor": "Y3Vyc29yOjIw",
+        "hasNextPage": true,
+        "startCursor": "Y3Vyc29yOjE=",
+        "__typename": "PageInfo"
+      },
+      "repositoryCount": 1673400,
+      "edges": [
+        {
+          "node": {
+            "__typename": "Repository",
+            "url": "https://github.com/facebook/react",
+            "updatedAt": "2020-10-27T12:11:42Z",
+            "description": "A declarative, efficient, and flexible JavaScript library for building user interfaces.",
+            "homepageUrl": "https://reactjs.org",
+            "nameWithOwner": "facebook/react",
+            "primaryLanguage": {
+              "id": "MDg6TGFuZ3VhZ2UxNDA=",
+              "name": "JavaScript",
+              "color": "#f1e05a",
+              "__typename": "Language"
+            },
+            "stargazerCount": 158114,
+            "openGraphImageUrl": "https://avatars0.githubusercontent.com/u/69631?s=400&v=4",
+            "repositoryTopics": {
+              "edges": [
+                {
+                  "node": {
+                    "topic": {
+                      "name": "javascript",
+                      "__typename": "Topic"
+                    },
+                    "url": "https://github.com/topics/javascript",
+                    "__typename": "RepositoryTopic"
+                  },
+                  "__typename": "RepositoryTopicEdge"
+                },
+                {
+                  "node": {
+                    "topic": {
+                      "name": "react",
+                      "__typename": "Topic"
+                    },
+                    "url": "https://github.com/topics/react",
+                    "__typename": "RepositoryTopic"
+                  },
+                  "__typename": "RepositoryTopicEdge"
+                },
+                {
+                  "node": {
+                    "topic": {
+                      "name": "frontend",
+                      "__typename": "Topic"
+                    },
+                    "url": "https://github.com/topics/frontend",
+                    "__typename": "RepositoryTopic"
+                  },
+                  "__typename": "RepositoryTopicEdge"
+                },
+                {
+                  "node": {
+                    "topic": {
+                      "name": "declarative",
+                      "__typename": "Topic"
+                    },
+                    "url": "https://github.com/topics/declarative",
+                    "__typename": "RepositoryTopic"
+                  },
+                  "__typename": "RepositoryTopicEdge"
+                },
+                {
+                  "node": {
+                    "topic": {
+                      "name": "ui",
+                      "__typename": "Topic"
+                    },
+                    "url": "https://github.com/topics/ui",
+                    "__typename": "RepositoryTopic"
+                  },
+                  "__typename": "RepositoryTopicEdge"
+                }
+              ],
+              "__typename": "RepositoryTopicConnection"
+            }
+          },
+          "__typename": "SearchResultItemEdge"
+        },
+        {
+          "node": {
+            "__typename": "Repository",
+            "url": "https://github.com/typescript-cheatsheets/react",
+            "updatedAt": "2020-10-27T10:59:58Z",
+            "description": "Cheatsheets for experienced React developers getting started with TypeScript",
+            "homepageUrl": "https://react-typescript-cheatsheet.netlify.app/",
+            "nameWithOwner": "typescript-cheatsheets/react",
+            "primaryLanguage": {
+              "id": "MDg6TGFuZ3VhZ2UxNDA=",
+              "name": "JavaScript",
+              "color": "#f1e05a",
+              "__typename": "Language"
+            },
+            "stargazerCount": 19040,
+            "openGraphImageUrl": "https://repository-images.githubusercontent.com/135786093/b56ad700-6d50-11e9-9775-9f64c1e1414e",
+            "repositoryTopics": {
+              "edges": [
+                {
+                  "node": {
+                    "topic": {
+                      "name": "typescript",
+                      "__typename": "Topic"
+                    },
+                    "url": "https://github.com/topics/typescript",
+                    "__typename": "RepositoryTopic"
+                  },
+                  "__typename": "RepositoryTopicEdge"
+                },
+                {
+                  "node": {
+                    "topic": {
+                      "name": "typescript-playground",
+                      "__typename": "Topic"
+                    },
+                    "url": "https://github.com/topics/typescript-playground",
+                    "__typename": "RepositoryTopic"
+                  },
+                  "__typename": "RepositoryTopicEdge"
+                },
+                {
+                  "node": {
+                    "topic": {
+                      "name": "reference",
+                      "__typename": "Topic"
+                    },
+                    "url": "https://github.com/topics/reference",
+                    "__typename": "RepositoryTopic"
+                  },
+                  "__typename": "RepositoryTopicEdge"
+                },
+                {
+                  "node": {
+                    "topic": {
+                      "name": "ts",
+                      "__typename": "Topic"
+                    },
+                    "url": "https://github.com/topics/ts",
+                    "__typename": "RepositoryTopic"
+                  },
+                  "__typename": "RepositoryTopicEdge"
+                },
+                {
+                  "node": {
+                    "topic": {
+                      "name": "cheatsheet",
+                      "__typename": "Topic"
+                    },
+                    "url": "https://github.com/topics/cheatsheet",
+                    "__typename": "RepositoryTopic"
+                  },
+                  "__typename": "RepositoryTopicEdge"
+                }
+              ],
+              "__typename": "RepositoryTopicConnection"
+            }
+          },
+          "__typename": "SearchResultItemEdge"
+        },
+        {
+          "node": {
+            "__typename": "Repository",
+            "url": "https://github.com/duxianwei520/react",
+            "updatedAt": "2020-10-27T02:13:45Z",
+            "description": " React+webpack+redux+ant design+axios+less全家桶后台管理框架",
+            "homepageUrl": "",
+            "nameWithOwner": "duxianwei520/react",
+            "primaryLanguage": {
+              "id": "MDg6TGFuZ3VhZ2UxNDA=",
+              "name": "JavaScript",
+              "color": "#f1e05a",
+              "__typename": "Language"
+            },
+            "stargazerCount": 3902,
+            "openGraphImageUrl": "https://avatars1.githubusercontent.com/u/3249653?s=400&v=4",
+            "repositoryTopics": {
+              "edges": [
+                {
+                  "node": {
+                    "topic": {
+                      "name": "react",
+                      "__typename": "Topic"
+                    },
+                    "url": "https://github.com/topics/react",
+                    "__typename": "RepositoryTopic"
+                  },
+                  "__typename": "RepositoryTopicEdge"
+                },
+                {
+                  "node": {
+                    "topic": {
+                      "name": "webpack",
+                      "__typename": "Topic"
+                    },
+                    "url": "https://github.com/topics/webpack",
+                    "__typename": "RepositoryTopic"
+                  },
+                  "__typename": "RepositoryTopicEdge"
+                },
+                {
+                  "node": {
+                    "topic": {
+                      "name": "antd",
+                      "__typename": "Topic"
+                    },
+                    "url": "https://github.com/topics/antd",
+                    "__typename": "RepositoryTopic"
+                  },
+                  "__typename": "RepositoryTopicEdge"
+                },
+                {
+                  "node": {
+                    "topic": {
+                      "name": "es6",
+                      "__typename": "Topic"
+                    },
+                    "url": "https://github.com/topics/es6",
+                    "__typename": "RepositoryTopic"
+                  },
+                  "__typename": "RepositoryTopicEdge"
+                },
+                {
+                  "node": {
+                    "topic": {
+                      "name": "redux",
+                      "__typename": "Topic"
+                    },
+                    "url": "https://github.com/topics/redux",
+                    "__typename": "RepositoryTopic"
+                  },
+                  "__typename": "RepositoryTopicEdge"
+                }
+              ],
+              "__typename": "RepositoryTopicConnection"
+            }
+          },
+          "__typename": "SearchResultItemEdge"
+        },
+        {
+          "node": {
+            "__typename": "Repository",
+            "url": "https://github.com/discountry/react",
+            "updatedAt": "2020-10-27T00:45:04Z",
+            "description": "React docs in Chinese | React 中文文档翻译",
+            "homepageUrl": "https://zh-hans.reactjs.org/",
+            "nameWithOwner": "discountry/react",
+            "primaryLanguage": {
+              "id": "MDg6TGFuZ3VhZ2UxNDA=",
+              "name": "JavaScript",
+              "color": "#f1e05a",
+              "__typename": "Language"
+            },
+            "stargazerCount": 974,
+            "openGraphImageUrl": "https://avatars1.githubusercontent.com/u/4507101?s=400&v=4",
+            "repositoryTopics": {
+              "edges": [
+                {
+                  "node": {
+                    "topic": {
+                      "name": "react",
+                      "__typename": "Topic"
+                    },
+                    "url": "https://github.com/topics/react",
+                    "__typename": "RepositoryTopic"
+                  },
+                  "__typename": "RepositoryTopicEdge"
+                },
+                {
+                  "node": {
+                    "topic": {
+                      "name": "docs",
+                      "__typename": "Topic"
+                    },
+                    "url": "https://github.com/topics/docs",
+                    "__typename": "RepositoryTopic"
+                  },
+                  "__typename": "RepositoryTopicEdge"
+                }
+              ],
+              "__typename": "RepositoryTopicConnection"
+            }
+          },
+          "__typename": "SearchResultItemEdge"
+        },
+        {
+          "node": {
+            "__typename": "Repository",
+            "url": "https://github.com/Cathy0807/react",
+            "updatedAt": "2020-10-21T15:10:07Z",
+            "description": "京东首页构建",
+            "homepageUrl": null,
+            "nameWithOwner": "Cathy0807/react",
+            "primaryLanguage": {
+              "id": "MDg6TGFuZ3VhZ2UxNDA=",
+              "name": "JavaScript",
+              "color": "#f1e05a",
+              "__typename": "Language"
+            },
+            "stargazerCount": 690,
+            "openGraphImageUrl": "https://avatars2.githubusercontent.com/u/20653643?s=400&v=4",
+            "repositoryTopics": {
+              "edges": [],
+              "__typename": "RepositoryTopicConnection"
+            }
+          },
+          "__typename": "SearchResultItemEdge"
+        },
+        {
+          "node": {
+            "__typename": "Repository",
+            "url": "https://github.com/react-redux-antd-es6/react",
+            "updatedAt": "2020-10-26T09:07:59Z",
+            "description": "基于react的企业后台管理开发框架",
+            "homepageUrl": "",
+            "nameWithOwner": "react-redux-antd-es6/react",
+            "primaryLanguage": {
+              "id": "MDg6TGFuZ3VhZ2UxNDA=",
+              "name": "JavaScript",
+              "color": "#f1e05a",
+              "__typename": "Language"
+            },
+            "stargazerCount": 757,
+            "openGraphImageUrl": "https://avatars3.githubusercontent.com/u/24805142?s=400&v=4",
+            "repositoryTopics": {
+              "edges": [
+                {
+                  "node": {
+                    "topic": {
+                      "name": "react",
+                      "__typename": "Topic"
+                    },
+                    "url": "https://github.com/topics/react",
+                    "__typename": "RepositoryTopic"
+                  },
+                  "__typename": "RepositoryTopicEdge"
+                },
+                {
+                  "node": {
+                    "topic": {
+                      "name": "antd",
+                      "__typename": "Topic"
+                    },
+                    "url": "https://github.com/topics/antd",
+                    "__typename": "RepositoryTopic"
+                  },
+                  "__typename": "RepositoryTopicEdge"
+                },
+                {
+                  "node": {
+                    "topic": {
+                      "name": "webpack",
+                      "__typename": "Topic"
+                    },
+                    "url": "https://github.com/topics/webpack",
+                    "__typename": "RepositoryTopic"
+                  },
+                  "__typename": "RepositoryTopicEdge"
+                }
+              ],
+              "__typename": "RepositoryTopicConnection"
+            }
+          },
+          "__typename": "SearchResultItemEdge"
+        },
+        {
+          "node": {
+            "__typename": "Repository",
+            "url": "https://github.com/HackYourFuture/React",
+            "updatedAt": "2020-10-23T18:58:03Z",
+            "description": "This repository contains all the material for the HackYourFuture module \"React.js: Building dynamic UIs with modern JavaScript\"",
+            "homepageUrl": "",
+            "nameWithOwner": "HackYourFuture/React",
+            "primaryLanguage": null,
+            "stargazerCount": 103,
+            "openGraphImageUrl": "https://avatars1.githubusercontent.com/u/20858568?s=400&v=4",
+            "repositoryTopics": {
+              "edges": [
+                {
+                  "node": {
+                    "topic": {
+                      "name": "react",
+                      "__typename": "Topic"
+                    },
+                    "url": "https://github.com/topics/react",
+                    "__typename": "RepositoryTopic"
+                  },
+                  "__typename": "RepositoryTopicEdge"
+                },
+                {
+                  "node": {
+                    "topic": {
+                      "name": "mobx",
+                      "__typename": "Topic"
+                    },
+                    "url": "https://github.com/topics/mobx",
+                    "__typename": "RepositoryTopic"
+                  },
+                  "__typename": "RepositoryTopicEdge"
+                },
+                {
+                  "node": {
+                    "topic": {
+                      "name": "hyf",
+                      "__typename": "Topic"
+                    },
+                    "url": "https://github.com/topics/hyf",
+                    "__typename": "RepositoryTopic"
+                  },
+                  "__typename": "RepositoryTopicEdge"
+                }
+              ],
+              "__typename": "RepositoryTopicConnection"
+            }
+          },
+          "__typename": "SearchResultItemEdge"
+        },
+        {
+          "node": {
+            "__typename": "Repository",
+            "url": "https://github.com/geist-org/react",
+            "updatedAt": "2020-10-27T09:32:16Z",
+            "description": "Modern and minimalist React UI library.",
+            "homepageUrl": "https://react.geist-ui.dev",
+            "nameWithOwner": "geist-org/react",
+            "primaryLanguage": {
+              "id": "MDg6TGFuZ3VhZ2UyODc=",
+              "name": "TypeScript",
+              "color": "#2b7489",
+              "__typename": "Language"
+            },
+            "stargazerCount": 1160,
+            "openGraphImageUrl": "https://repository-images.githubusercontent.com/248295170/1d66ce80-e6b4-11ea-9fb1-e063dd38547a",
+            "repositoryTopics": {
+              "edges": [
+                {
+                  "node": {
+                    "topic": {
+                      "name": "react-components",
+                      "__typename": "Topic"
+                    },
+                    "url": "https://github.com/topics/react-components",
+                    "__typename": "RepositoryTopic"
+                  },
+                  "__typename": "RepositoryTopicEdge"
+                },
+                {
+                  "node": {
+                    "topic": {
+                      "name": "react",
+                      "__typename": "Topic"
+                    },
+                    "url": "https://github.com/topics/react",
+                    "__typename": "RepositoryTopic"
+                  },
+                  "__typename": "RepositoryTopicEdge"
+                },
+                {
+                  "node": {
+                    "topic": {
+                      "name": "component",
+                      "__typename": "Topic"
+                    },
+                    "url": "https://github.com/topics/component",
+                    "__typename": "RepositoryTopic"
+                  },
+                  "__typename": "RepositoryTopicEdge"
+                },
+                {
+                  "node": {
+                    "topic": {
+                      "name": "geist",
+                      "__typename": "Topic"
+                    },
+                    "url": "https://github.com/topics/geist",
+                    "__typename": "RepositoryTopic"
+                  },
+                  "__typename": "RepositoryTopicEdge"
+                },
+                {
+                  "node": {
+                    "topic": {
+                      "name": "design-system",
+                      "__typename": "Topic"
+                    },
+                    "url": "https://github.com/topics/design-system",
+                    "__typename": "RepositoryTopic"
+                  },
+                  "__typename": "RepositoryTopicEdge"
+                }
+              ],
+              "__typename": "RepositoryTopicConnection"
+            }
+          },
+          "__typename": "SearchResultItemEdge"
+        },
+        {
+          "node": {
+            "__typename": "Repository",
+            "url": "https://github.com/ReactiveCocoa/ReactiveCocoa",
+            "updatedAt": "2020-10-27T08:25:54Z",
+            "description": "Cocoa framework and Obj-C dynamism bindings for ReactiveSwift.",
+            "homepageUrl": "",
+            "nameWithOwner": "ReactiveCocoa/ReactiveCocoa",
+            "primaryLanguage": {
+              "id": "MDg6TGFuZ3VhZ2UzNzE=",
+              "name": "Swift",
+              "color": "#ffac45",
+              "__typename": "Language"
+            },
+            "stargazerCount": 19871,
+            "openGraphImageUrl": "https://avatars2.githubusercontent.com/u/3422977?s=400&v=4",
+            "repositoryTopics": {
+              "edges": [
+                {
+                  "node": {
+                    "topic": {
+                      "name": "reactiveswift",
+                      "__typename": "Topic"
+                    },
+                    "url": "https://github.com/topics/reactiveswift",
+                    "__typename": "RepositoryTopic"
+                  },
+                  "__typename": "RepositoryTopicEdge"
+                },
+                {
+                  "node": {
+                    "topic": {
+                      "name": "reactivecocoa",
+                      "__typename": "Topic"
+                    },
+                    "url": "https://github.com/topics/reactivecocoa",
+                    "__typename": "RepositoryTopic"
+                  },
+                  "__typename": "RepositoryTopicEdge"
+                },
+                {
+                  "node": {
+                    "topic": {
+                      "name": "swift",
+                      "__typename": "Topic"
+                    },
+                    "url": "https://github.com/topics/swift",
+                    "__typename": "RepositoryTopic"
+                  },
+                  "__typename": "RepositoryTopicEdge"
+                }
+              ],
+              "__typename": "RepositoryTopicConnection"
+            }
+          },
+          "__typename": "SearchResultItemEdge"
+        },
+        {
+          "node": {
+            "__typename": "Repository",
+            "url": "https://github.com/facebook/react-native",
+            "updatedAt": "2020-10-27T11:52:41Z",
+            "description": "A framework for building native apps with React.",
+            "homepageUrl": "https://reactnative.dev",
+            "nameWithOwner": "facebook/react-native",
+            "primaryLanguage": {
+              "id": "MDg6TGFuZ3VhZ2UxNDA=",
+              "name": "JavaScript",
+              "color": "#f1e05a",
+              "__typename": "Language"
+            },
+            "stargazerCount": 90930,
+            "openGraphImageUrl": "https://avatars0.githubusercontent.com/u/69631?s=400&v=4",
+            "repositoryTopics": {
+              "edges": [],
+              "__typename": "RepositoryTopicConnection"
+            }
+          },
+          "__typename": "SearchResultItemEdge"
+        },
+        {
+          "node": {
+            "__typename": "Repository",
+            "url": "https://github.com/vercel/next.js",
+            "updatedAt": "2020-10-27T12:14:56Z",
+            "description": "The React Framework",
+            "homepageUrl": "https://nextjs.org",
+            "nameWithOwner": "vercel/next.js",
+            "primaryLanguage": {
+              "id": "MDg6TGFuZ3VhZ2UxNDA=",
+              "name": "JavaScript",
+              "color": "#f1e05a",
+              "__typename": "Language"
+            },
+            "stargazerCount": 54825,
+            "openGraphImageUrl": "https://repository-images.githubusercontent.com/70107786/6532af00-82ea-11ea-9d1a-7fcded8ac5d3",
+            "repositoryTopics": {
+              "edges": [
+                {
+                  "node": {
+                    "topic": {
+                      "name": "react",
+                      "__typename": "Topic"
+                    },
+                    "url": "https://github.com/topics/react",
+                    "__typename": "RepositoryTopic"
+                  },
+                  "__typename": "RepositoryTopicEdge"
+                },
+                {
+                  "node": {
+                    "topic": {
+                      "name": "server-rendering",
+                      "__typename": "Topic"
+                    },
+                    "url": "https://github.com/topics/server-rendering",
+                    "__typename": "RepositoryTopic"
+                  },
+                  "__typename": "RepositoryTopicEdge"
+                },
+                {
+                  "node": {
+                    "topic": {
+                      "name": "universal",
+                      "__typename": "Topic"
+                    },
+                    "url": "https://github.com/topics/universal",
+                    "__typename": "RepositoryTopic"
+                  },
+                  "__typename": "RepositoryTopicEdge"
+                },
+                {
+                  "node": {
+                    "topic": {
+                      "name": "node",
+                      "__typename": "Topic"
+                    },
+                    "url": "https://github.com/topics/node",
+                    "__typename": "RepositoryTopic"
+                  },
+                  "__typename": "RepositoryTopicEdge"
+                },
+                {
+                  "node": {
+                    "topic": {
+                      "name": "components",
+                      "__typename": "Topic"
+                    },
+                    "url": "https://github.com/topics/components",
+                    "__typename": "RepositoryTopic"
+                  },
+                  "__typename": "RepositoryTopicEdge"
+                }
+              ],
+              "__typename": "RepositoryTopicConnection"
+            }
+          },
+          "__typename": "SearchResultItemEdge"
+        },
+        {
+          "node": {
+            "__typename": "Repository",
+            "url": "https://github.com/ReactTraining/react-router",
+            "updatedAt": "2020-10-27T11:52:14Z",
+            "description": "Declarative routing for React",
+            "homepageUrl": "https://reacttraining.com/react-router/",
+            "nameWithOwner": "ReactTraining/react-router",
+            "primaryLanguage": {
+              "id": "MDg6TGFuZ3VhZ2UxNDA=",
+              "name": "JavaScript",
+              "color": "#f1e05a",
+              "__typename": "Language"
+            },
+            "stargazerCount": 41905,
+            "openGraphImageUrl": "https://repository-images.githubusercontent.com/19872456/05dca500-f010-11e9-9588-a96554294e4e",
+            "repositoryTopics": {
+              "edges": [],
+              "__typename": "RepositoryTopicConnection"
+            }
+          },
+          "__typename": "SearchResultItemEdge"
+        },
+        {
+          "node": {
+            "__typename": "Repository",
+            "url": "https://github.com/azat-co/react",
+            "updatedAt": "2020-10-11T13:03:27Z",
+            "description": "Examples for the React Quickly book. ",
+            "homepageUrl": "https://www.manning.com/books/react-quickly",
+            "nameWithOwner": "azat-co/react",
+            "primaryLanguage": {
+              "id": "MDg6TGFuZ3VhZ2UxNDA=",
+              "name": "JavaScript",
+              "color": "#f1e05a",
+              "__typename": "Language"
+            },
+            "stargazerCount": 214,
+            "openGraphImageUrl": "https://avatars1.githubusercontent.com/u/1137314?s=400&v=4",
+            "repositoryTopics": {
+              "edges": [],
+              "__typename": "RepositoryTopicConnection"
+            }
+          },
+          "__typename": "SearchResultItemEdge"
+        },
+        {
+          "node": {
+            "__typename": "Repository",
+            "url": "https://github.com/facebook/create-react-app",
+            "updatedAt": "2020-10-27T12:01:13Z",
+            "description": "Set up a modern web app by running one command.",
+            "homepageUrl": "https://create-react-app.dev",
+            "nameWithOwner": "facebook/create-react-app",
+            "primaryLanguage": {
+              "id": "MDg6TGFuZ3VhZ2UxNDA=",
+              "name": "JavaScript",
+              "color": "#f1e05a",
+              "__typename": "Language"
+            },
+            "stargazerCount": 83207,
+            "openGraphImageUrl": "https://avatars0.githubusercontent.com/u/69631?s=400&v=4",
+            "repositoryTopics": {
+              "edges": [
+                {
+                  "node": {
+                    "topic": {
+                      "name": "react",
+                      "__typename": "Topic"
+                    },
+                    "url": "https://github.com/topics/react",
+                    "__typename": "RepositoryTopic"
+                  },
+                  "__typename": "RepositoryTopicEdge"
+                },
+                {
+                  "node": {
+                    "topic": {
+                      "name": "zero-configuration",
+                      "__typename": "Topic"
+                    },
+                    "url": "https://github.com/topics/zero-configuration",
+                    "__typename": "RepositoryTopic"
+                  },
+                  "__typename": "RepositoryTopicEdge"
+                },
+                {
+                  "node": {
+                    "topic": {
+                      "name": "build-tools",
+                      "__typename": "Topic"
+                    },
+                    "url": "https://github.com/topics/build-tools",
+                    "__typename": "RepositoryTopic"
+                  },
+                  "__typename": "RepositoryTopicEdge"
+                }
+              ],
+              "__typename": "RepositoryTopicConnection"
+            }
+          },
+          "__typename": "SearchResultItemEdge"
+        },
+        {
+          "node": {
+            "__typename": "Repository",
+            "url": "https://github.com/omergulcicek/react",
+            "updatedAt": "2020-10-26T11:01:04Z",
+            "description": "React JavaScript kütüphanesi Türkçe çeviri",
+            "homepageUrl": "https://turkcedokuman.com/",
+            "nameWithOwner": "omergulcicek/react",
+            "primaryLanguage": {
+              "id": "MDg6TGFuZ3VhZ2U0MTc=",
+              "name": "HTML",
+              "color": "#e34c26",
+              "__typename": "Language"
+            },
+            "stargazerCount": 400,
+            "openGraphImageUrl": "https://avatars1.githubusercontent.com/u/13813170?s=400&v=4",
+            "repositoryTopics": {
+              "edges": [
+                {
+                  "node": {
+                    "topic": {
+                      "name": "react",
+                      "__typename": "Topic"
+                    },
+                    "url": "https://github.com/topics/react",
+                    "__typename": "RepositoryTopic"
+                  },
+                  "__typename": "RepositoryTopicEdge"
+                },
+                {
+                  "node": {
+                    "topic": {
+                      "name": "reactjs",
+                      "__typename": "Topic"
+                    },
+                    "url": "https://github.com/topics/reactjs",
+                    "__typename": "RepositoryTopic"
+                  },
+                  "__typename": "RepositoryTopicEdge"
+                },
+                {
+                  "node": {
+                    "topic": {
+                      "name": "es6",
+                      "__typename": "Topic"
+                    },
+                    "url": "https://github.com/topics/es6",
+                    "__typename": "RepositoryTopic"
+                  },
+                  "__typename": "RepositoryTopicEdge"
+                },
+                {
+                  "node": {
+                    "topic": {
+                      "name": "jsx",
+                      "__typename": "Topic"
+                    },
+                    "url": "https://github.com/topics/jsx",
+                    "__typename": "RepositoryTopic"
+                  },
+                  "__typename": "RepositoryTopicEdge"
+                },
+                {
+                  "node": {
+                    "topic": {
+                      "name": "javascript",
+                      "__typename": "Topic"
+                    },
+                    "url": "https://github.com/topics/javascript",
+                    "__typename": "RepositoryTopic"
+                  },
+                  "__typename": "RepositoryTopicEdge"
+                }
+              ],
+              "__typename": "RepositoryTopicConnection"
+            }
+          },
+          "__typename": "SearchResultItemEdge"
+        },
+        {
+          "node": {
+            "__typename": "Repository",
+            "url": "https://github.com/ui-router/react",
+            "updatedAt": "2020-10-25T17:23:37Z",
+            "description": "🔼 UI-Router for React",
+            "homepageUrl": "https://ui-router.github.io/react/",
+            "nameWithOwner": "ui-router/react",
+            "primaryLanguage": {
+              "id": "MDg6TGFuZ3VhZ2UyODc=",
+              "name": "TypeScript",
+              "color": "#2b7489",
+              "__typename": "Language"
+            },
+            "stargazerCount": 371,
+            "openGraphImageUrl": "https://avatars3.githubusercontent.com/u/16856735?s=400&v=4",
+            "repositoryTopics": {
+              "edges": [
+                {
+                  "node": {
+                    "topic": {
+                      "name": "react",
+                      "__typename": "Topic"
+                    },
+                    "url": "https://github.com/topics/react",
+                    "__typename": "RepositoryTopic"
+                  },
+                  "__typename": "RepositoryTopicEdge"
+                },
+                {
+                  "node": {
+                    "topic": {
+                      "name": "ui-router",
+                      "__typename": "Topic"
+                    },
+                    "url": "https://github.com/topics/ui-router",
+                    "__typename": "RepositoryTopic"
+                  },
+                  "__typename": "RepositoryTopicEdge"
+                },
+                {
+                  "node": {
+                    "topic": {
+                      "name": "typescript",
+                      "__typename": "Topic"
+                    },
+                    "url": "https://github.com/topics/typescript",
+                    "__typename": "RepositoryTopic"
+                  },
+                  "__typename": "RepositoryTopicEdge"
+                },
+                {
+                  "node": {
+                    "topic": {
+                      "name": "javascript",
+                      "__typename": "Topic"
+                    },
+                    "url": "https://github.com/topics/javascript",
+                    "__typename": "RepositoryTopic"
+                  },
+                  "__typename": "RepositoryTopicEdge"
+                },
+                {
+                  "node": {
+                    "topic": {
+                      "name": "router",
+                      "__typename": "Topic"
+                    },
+                    "url": "https://github.com/topics/router",
+                    "__typename": "RepositoryTopic"
+                  },
+                  "__typename": "RepositoryTopicEdge"
+                }
+              ],
+              "__typename": "RepositoryTopicConnection"
+            }
+          },
+          "__typename": "SearchResultItemEdge"
+        },
+        {
+          "node": {
+            "__typename": "Repository",
+            "url": "https://github.com/werein/react",
+            "updatedAt": "2020-10-09T13:48:31Z",
+            "description": "Extremely simple boilerplate, easiest you can find, for React application including all the necessary tools: Flow | React 16 | redux | babel 6 | webpack 3 | css-modules | jest | enzyme | express + optional: sass/scss",
+            "homepageUrl": "https://wereinhq.com/guides/react",
+            "nameWithOwner": "werein/react",
+            "primaryLanguage": {
+              "id": "MDg6TGFuZ3VhZ2UxNDA=",
+              "name": "JavaScript",
+              "color": "#f1e05a",
+              "__typename": "Language"
+            },
+            "stargazerCount": 241,
+            "openGraphImageUrl": "https://avatars1.githubusercontent.com/u/3116920?s=400&v=4",
+            "repositoryTopics": {
+              "edges": [
+                {
+                  "node": {
+                    "topic": {
+                      "name": "react",
+                      "__typename": "Topic"
+                    },
+                    "url": "https://github.com/topics/react",
+                    "__typename": "RepositoryTopic"
+                  },
+                  "__typename": "RepositoryTopicEdge"
+                },
+                {
+                  "node": {
+                    "topic": {
+                      "name": "boilerplate",
+                      "__typename": "Topic"
+                    },
+                    "url": "https://github.com/topics/boilerplate",
+                    "__typename": "RepositoryTopic"
+                  },
+                  "__typename": "RepositoryTopicEdge"
+                },
+                {
+                  "node": {
+                    "topic": {
+                      "name": "webpack",
+                      "__typename": "Topic"
+                    },
+                    "url": "https://github.com/topics/webpack",
+                    "__typename": "RepositoryTopic"
+                  },
+                  "__typename": "RepositoryTopicEdge"
+                },
+                {
+                  "node": {
+                    "topic": {
+                      "name": "redux",
+                      "__typename": "Topic"
+                    },
+                    "url": "https://github.com/topics/redux",
+                    "__typename": "RepositoryTopic"
+                  },
+                  "__typename": "RepositoryTopicEdge"
+                },
+                {
+                  "node": {
+                    "topic": {
+                      "name": "babel",
+                      "__typename": "Topic"
+                    },
+                    "url": "https://github.com/topics/babel",
+                    "__typename": "RepositoryTopic"
+                  },
+                  "__typename": "RepositoryTopicEdge"
+                }
+              ],
+              "__typename": "RepositoryTopicConnection"
+            }
+          },
+          "__typename": "SearchResultItemEdge"
+        },
+        {
+          "node": {
+            "__typename": "Repository",
+            "url": "https://github.com/enaqx/awesome-react",
+            "updatedAt": "2020-10-27T08:49:08Z",
+            "description": "A collection of awesome things regarding React ecosystem",
+            "homepageUrl": "",
+            "nameWithOwner": "enaqx/awesome-react",
+            "primaryLanguage": null,
+            "stargazerCount": 39888,
+            "openGraphImageUrl": "https://avatars2.githubusercontent.com/u/182219?s=400&v=4",
+            "repositoryTopics": {
+              "edges": [
+                {
+                  "node": {
+                    "topic": {
+                      "name": "react",
+                      "__typename": "Topic"
+                    },
+                    "url": "https://github.com/topics/react",
+                    "__typename": "RepositoryTopic"
+                  },
+                  "__typename": "RepositoryTopicEdge"
+                },
+                {
+                  "node": {
+                    "topic": {
+                      "name": "react-native",
+                      "__typename": "Topic"
+                    },
+                    "url": "https://github.com/topics/react-native",
+                    "__typename": "RepositoryTopic"
+                  },
+                  "__typename": "RepositoryTopicEdge"
+                },
+                {
+                  "node": {
+                    "topic": {
+                      "name": "js",
+                      "__typename": "Topic"
+                    },
+                    "url": "https://github.com/topics/js",
+                    "__typename": "RepositoryTopic"
+                  },
+                  "__typename": "RepositoryTopicEdge"
+                },
+                {
+                  "node": {
+                    "topic": {
+                      "name": "tutorial",
+                      "__typename": "Topic"
+                    },
+                    "url": "https://github.com/topics/tutorial",
+                    "__typename": "RepositoryTopic"
+                  },
+                  "__typename": "RepositoryTopicEdge"
+                },
+                {
+                  "node": {
+                    "topic": {
+                      "name": "samples",
+                      "__typename": "Topic"
+                    },
+                    "url": "https://github.com/topics/samples",
+                    "__typename": "RepositoryTopic"
+                  },
+                  "__typename": "RepositoryTopicEdge"
+                }
+              ],
+              "__typename": "RepositoryTopicConnection"
+            }
+          },
+          "__typename": "SearchResultItemEdge"
+        },
+        {
+          "node": {
+            "__typename": "Repository",
+            "url": "https://github.com/react-boilerplate/react-boilerplate",
+            "updatedAt": "2020-10-27T07:37:15Z",
+            "description": ":fire: A highly scalable, offline-first foundation with the best developer experience and a focus on performance and best practices.",
+            "homepageUrl": "https://www.reactboilerplate.com",
+            "nameWithOwner": "react-boilerplate/react-boilerplate",
+            "primaryLanguage": {
+              "id": "MDg6TGFuZ3VhZ2UxNDA=",
+              "name": "JavaScript",
+              "color": "#f1e05a",
+              "__typename": "Language"
+            },
+            "stargazerCount": 26505,
+            "openGraphImageUrl": "https://repository-images.githubusercontent.com/30969188/488df500-6133-11e9-9067-e412af3bc01f",
+            "repositoryTopics": {
+              "edges": [
+                {
+                  "node": {
+                    "topic": {
+                      "name": "react",
+                      "__typename": "Topic"
+                    },
+                    "url": "https://github.com/topics/react",
+                    "__typename": "RepositoryTopic"
+                  },
+                  "__typename": "RepositoryTopicEdge"
+                },
+                {
+                  "node": {
+                    "topic": {
+                      "name": "react-boilerplate",
+                      "__typename": "Topic"
+                    },
+                    "url": "https://github.com/topics/react-boilerplate",
+                    "__typename": "RepositoryTopic"
+                  },
+                  "__typename": "RepositoryTopicEdge"
+                },
+                {
+                  "node": {
+                    "topic": {
+                      "name": "redux",
+                      "__typename": "Topic"
+                    },
+                    "url": "https://github.com/topics/redux",
+                    "__typename": "RepositoryTopic"
+                  },
+                  "__typename": "RepositoryTopicEdge"
+                },
+                {
+                  "node": {
+                    "topic": {
+                      "name": "redux-saga",
+                      "__typename": "Topic"
+                    },
+                    "url": "https://github.com/topics/redux-saga",
+                    "__typename": "RepositoryTopic"
+                  },
+                  "__typename": "RepositoryTopicEdge"
+                },
+                {
+                  "node": {
+                    "topic": {
+                      "name": "offline-first",
+                      "__typename": "Topic"
+                    },
+                    "url": "https://github.com/topics/offline-first",
+                    "__typename": "RepositoryTopic"
+                  },
+                  "__typename": "RepositoryTopicEdge"
+                }
+              ],
+              "__typename": "RepositoryTopicConnection"
+            }
+          },
+          "__typename": "SearchResultItemEdge"
+        },
+        {
+          "node": {
+            "__typename": "Repository",
+            "url": "https://github.com/ruanyf/react-demos",
+            "updatedAt": "2020-10-27T10:03:27Z",
+            "description": "a collection of simple demos of React.js",
+            "homepageUrl": null,
+            "nameWithOwner": "ruanyf/react-demos",
+            "primaryLanguage": {
+              "id": "MDg6TGFuZ3VhZ2UxNDA=",
+              "name": "JavaScript",
+              "color": "#f1e05a",
+              "__typename": "Language"
+            },
+            "stargazerCount": 15374,
+            "openGraphImageUrl": "https://avatars3.githubusercontent.com/u/905434?s=400&v=4",
+            "repositoryTopics": {
+              "edges": [],
+              "__typename": "RepositoryTopicConnection"
+            }
+          },
+          "__typename": "SearchResultItemEdge"
+        }
+      ],
+      "__typename": "SearchResultItemConnection"
+    }
+  }
+}

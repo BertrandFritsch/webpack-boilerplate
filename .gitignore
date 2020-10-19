@@ -1,0 +1,11 @@
+.htaccess
+docs/
+node_modules/
+.idea
+/config/config.dev.json
+/.graphqlconfig
+/schema.graphql
+/yarn-error.log
+/.nyc_output/
+/.vscode/
+/coverage/

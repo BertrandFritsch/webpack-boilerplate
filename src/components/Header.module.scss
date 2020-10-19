@@ -1,0 +1,73 @@
+
+$dark-color: rgb(36, 41, 46);
+
+.header:global(.MuiAppBar-root) {
+  height: 3.75rem;
+  background-color: $dark-color;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  > * {
+    flex: auto;
+  }
+}
+
+.toolbar:global(.MuiToolbar-root) {
+  display: flex;
+
+  > * {
+    flex: none;
+  }
+
+  > :nth-child(1) {
+    flex: auto;
+  }
+}
+
+.search {
+  position: relative;
+  color: $dark-color;
+}
+
+.search-icon {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  padding: 0 .5rem;
+  pointer-events: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: lighten($dark-color, 30%);
+}
+
+.input-root {
+  color: inherit;
+}
+
+.input-input:global(.MuiInputBase-input) {
+  background-color: darken(white, 15%);
+
+  &:hover, &:focus {
+    background-color: white;
+  }
+
+  padding: .5rem .5rem .5rem 2.5rem;
+  width: 50ch;
+}
+
+.avatar {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  margin: 0 .5rem;
+}
+
+.user:global(.MuiTypography-root) {
+  text-transform: uppercase;
+  font-size: .85rem;
+  font-weight: bold;
+}
