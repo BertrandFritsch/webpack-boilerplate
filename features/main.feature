@@ -1,5 +1,5 @@
 Feature: Main features
-  Searching for Github repositories
+  Searching for GitHub repositories
 
   Scenario: Show user details
     Given I am on the main page

@@ -13,6 +13,15 @@ yarn install
 ```
 ## Usage
 
+The app uses GitHub to illustrate the usage of the technologies.
+It expects a configuration file [config/config.dev.json](config) containing the [Personal Access Token](https://docs.github.com/en/free-pro-team@latest/graphql/guides/forming-calls-with-graphql#authenticating-with-graphql).
+
+```json
+{
+  "GITHUB_PAT": "XXX"
+}
+```
+
 ### Development server
 
 ```powershell
@@ -23,6 +32,12 @@ yarn dev
 
 ```powershell
 yarn prod
+```
+
+### Acceptance tests
+
+```powershell
+yarn test:cov
 ```
 
 ## Features

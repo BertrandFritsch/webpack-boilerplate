@@ -36,7 +36,7 @@ export default function Header({ searchString, searchStringChanged }: Props) {
     <AppBar position='static' className={ styles.header }>
       <Toolbar className={ styles.toolbar }>
         <Typography variant='h6' noWrap>
-          Github explorer demo
+          GitHub explorer demo
         </Typography>
         <div className={ styles.search }>
           <InputBase
