@@ -4,3 +4,5 @@
 *.zip binary
 *.xd binary
 *.png binary
+*.jpg binary
+*.jpeg binary

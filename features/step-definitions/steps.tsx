@@ -26,7 +26,7 @@ const getApolloClient = (fetchMockResponse?: fetchMock.MockResponse) => {
         return loadDataFile('RepositoryList');
       }
       else {
-        throw new Error('Loading error!')
+        throw new Error('Loading error!');
       }
     }
 
@@ -72,11 +72,11 @@ Given('I am on the main page', async function (this: TestingLibraryWorld) {
 });
 
 When('I search for the repositories containing the word {string}', async function(this: TestingLibraryWorld, searchString: string) {
-  userEvent.type(NNU(this.component).getByPlaceholderText('Search…'), searchString);
+  await userEvent.type(NNU(this.component).getByPlaceholderText('Search…'), searchString);
 });
 
 When('An error occurs while searching for the repositories matching a search string', async function(this: TestingLibraryWorld) {
-  userEvent.type(NNU(this.component).getByPlaceholderText('Search…'), 'error');
+  await userEvent.type(NNU(this.component).getByPlaceholderText('Search…'), 'error');
 });
 
 Then('I should see my profile', async function(this: TestingLibraryWorld) {

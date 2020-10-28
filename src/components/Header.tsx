@@ -20,6 +20,7 @@ export default function Header({ searchString, searchStringChanged }: Props) {
 
   const debouncedSearchString = React.useMemo(
     () => debounce(searchStringChanged, 600),
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     []
   );
 
@@ -27,25 +28,26 @@ export default function Header({ searchString, searchStringChanged }: Props) {
     () => {
       debouncedSearchString(localSearchString);
     },
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     [ localSearchString ]
   );
 
   return (
     <AppBar position='static' className={ styles.header }>
       <Toolbar className={ styles.toolbar }>
-        <Typography variant="h6" noWrap>
+        <Typography variant='h6' noWrap>
           Github explorer demo
         </Typography>
         <div className={ styles.search }>
           <InputBase
-            placeholder="Search…"
+            placeholder='Search…'
             classes={ {
               root: styles.inputRoot,
               input: styles.inputInput
             } }
             inputProps={ { 'aria-label': 'search' } }
             value={ localSearchString || '' }
-            onChange={ e => setLocalSearchString(e.target.value.trim() || null)}
+            onChange={ e => setLocalSearchString(e.target.value.trim() || null) }
           />
           <div className={ styles.searchIcon }>
             <SearchIcon />

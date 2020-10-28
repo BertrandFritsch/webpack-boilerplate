@@ -1,7 +1,6 @@
 const path = require('path');
 const HtmlWebPackPlugin = require('html-webpack-plugin');
 const { merge } = require('webpack-merge');
-const PnpWebpackPlugin = require(`pnp-webpack-plugin`);
 
 const configureResolveAlias = () => {
   return {
@@ -51,23 +50,7 @@ const configureGraphQLTagLoader = () => {
   }
 }
 
-const configurePnPPlugin = () => {
-  return {
-    resolve: {
-      plugins: [
-        PnpWebpackPlugin,
-      ],
-    },
-    resolveLoader: {
-      plugins: [
-        PnpWebpackPlugin.moduleLoader(module),
-      ],
-    },
-  };
-}
-
 module.exports = merge(
-  configurePnPPlugin(),
   configureTSLoader(),
   configureGraphQLTagLoader(),
   {

@@ -9,7 +9,7 @@ const configureDevServer = () => {
   return {
     contentBase: './src',
     open: false,
-    port: 8585,
+    port: 8080,
     inline: true,
     stats: "errors-warnings",
     hot: true,
