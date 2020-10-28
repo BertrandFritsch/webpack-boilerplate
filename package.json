@@ -1,9 +1,9 @@
 {
-  "name": "github-explorer",
+  "name": "webpack-boilerplate",
   "version": "0.0.1",
   "description": "Github explorer demo",
   "main": "src/index.tsx",
-  "repository": "https://github.com/bertrandfritsch/github-explorer",
+  "repository": "https://github.com/bertrandfritsch/webpack-boilerplate",
   "author": "Bertrand Fritsch (bertrand.fritsch.in@gmail.com)",
   "license": "MIT",
   "sideEffects": false,

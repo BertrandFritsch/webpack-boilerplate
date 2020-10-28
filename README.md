@@ -7,8 +7,8 @@ It also includes optimization for development and production build.
 
 ## Clone the repo and install dependencies
 ```powershell
-git clone https://github.com/BertrandFritsch/github-explorer.git
-cd github-explorer
+git clone https://github.com/BertrandFritsch/webpack-boilerplate.git
+cd webpack-boilerplate
 yarn install
 ```
 ## Usage
