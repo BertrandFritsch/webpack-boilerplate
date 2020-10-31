@@ -10,33 +10,6 @@ const configureResolveAlias = () => {
   }
 }
 
-const configureTSLoader = () => {
-  return {
-    resolve: {
-      // resolvable extensions.
-      extensions: [ '.ts', '.tsx', '.js' ]
-    },
-
-    module: {
-      rules: [
-        {
-          test: /\.tsx?$/,
-          use: [
-            {
-              loader: 'ts-loader',
-              options: {
-                // disable type checker - we will use it in fork plugin
-                transpileOnly: true
-              }
-            }
-          ],
-          exclude: /node_modules/
-        }
-      ]
-    }
-  }
-}
-
 const configureGraphQLTagLoader = () => {
   return {
     module: {
@@ -51,9 +24,9 @@ const configureGraphQLTagLoader = () => {
 }
 
 module.exports = merge(
-  configureTSLoader(),
   configureGraphQLTagLoader(),
   {
+    target: 'web',
     entry: './src/index.tsx',
     resolve: configureResolveAlias(),
     plugins: [

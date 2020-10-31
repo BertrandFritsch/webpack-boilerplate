@@ -52,6 +52,7 @@ yarn test:cov
 - [CSS Modules](https://github.com/css-modules/css-modules)
 - [PostCSS](https://postcss.org)
 - [ESLint](https://eslint.org)
+- [React Fast Refresh](https://github.com/pmmmwh/react-refresh-webpack-plugin)
 
 ## Dependencies
 

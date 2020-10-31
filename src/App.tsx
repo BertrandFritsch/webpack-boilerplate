@@ -1,4 +1,3 @@
-import { hot } from 'react-hot-loader/root';
 import * as React from 'react';
 import { ApolloClient, ApolloLink, ApolloProvider, createHttpLink, InMemoryCache } from '@apollo/client';
 import { onError } from '@apollo/client/link/error';
@@ -26,9 +25,10 @@ const client = new ApolloClient({
   cache
 });
 
-const App = () =>
-  <ApolloProvider client={ client }>
-    <Main />
-  </ApolloProvider>;
-
-export default hot(App);
+export default function App() {
+  return (
+    <ApolloProvider client={ client }>
+      <Main />
+    </ApolloProvider>
+  );
+}

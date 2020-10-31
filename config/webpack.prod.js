@@ -13,23 +13,48 @@ const { cssLoaders } = require('./util');
 
 const OUTPUT_DIR = 'docs';
 
-// configure Output
 const configureOutput = () => {
   return {
-    path: path.resolve(__dirname, `../${OUTPUT_DIR}`),
+    path: path.resolve(__dirname, `../${ OUTPUT_DIR }`),
     filename: 'vendor/[name].[contenthash].js',
     chunkFilename: 'vendor/[name].[contenthash].js',
   }
 }
 
-// configure File Loader
+const configureTSLoader = () => {
+  return {
+    resolve: {
+      // resolvable extensions.
+      extensions: [ '.ts', '.tsx', '.js' ]
+    },
+
+    module: {
+      rules: [
+        {
+          test: /\.tsx?$/,
+          use: [
+            {
+              loader: 'ts-loader',
+              options: {
+                // disable type checker - we will use it in fork plugin
+                transpileOnly: true
+              }
+            }
+          ],
+          exclude: /node_modules/
+        }
+      ]
+    }
+  }
+}
+
 const configureFileLoader = () => {
   return {
     test: /\.(jpe?g|png|gif|svg)$/i,
     loader: 'file-loader',
     options: {
       name: '[path][name].[ext]',
-      outputPath: (url, resourcePath, context) => {
+      outputPath: url => {
         if (/src/.test(url)) {
           return url.replace('src', '../..');
         }
@@ -38,14 +63,12 @@ const configureFileLoader = () => {
   }
 }
 
-// configure Terser
 const configureTerser = () => {
   return {
     parallel: true
   };
 };
 
-// configure Optimization
 const configureOptimization = () => {
   return {
     splitChunks: {
@@ -65,11 +88,10 @@ const configureOptimization = () => {
         },
       }
     },
-    minimizer: [new TerserPlugin(configureTerser())]
+    minimizer: [ new TerserPlugin(configureTerser()) ]
   }
 }
 
-// configure MiniCssExtract
 const configureMiniCssExtract = () => {
   return {
     filename: 'vendor/css/[name].[contenthash].css',
@@ -77,7 +99,6 @@ const configureMiniCssExtract = () => {
   }
 }
 
-// configure SW
 const configureSW = () => {
   return {
     clientsClaim: true,
@@ -87,7 +108,6 @@ const configureSW = () => {
   }
 }
 
-// configure Copy
 const configureCopy = () => {
   return {
     patterns: [
@@ -97,43 +117,45 @@ const configureCopy = () => {
   }
 };
 
-module.exports = merge(baseConfig, {
-  mode: 'production',
-  output: configureOutput(),
-  target: 'web',
-  devtool: 'source-map',
-  module: {
-    rules: [
-      {
-        test: /\.(css|sass|scss)$/,
-        use: [
-          MiniCssExtractPlugin.loader,
-          ...cssLoaders
-        ],
-      },
-      configureFileLoader()
-    ],
-  },
-  optimization: configureOptimization(),
-  plugins: [
-    new CleanWebpackPlugin({
-      dry: false,
-      verbose: true
-    }),
-    new MiniCssExtractPlugin(
-      configureMiniCssExtract()
-    ),
-    new WorkboxPlugin.GenerateSW(
-      configureSW()
-    ),
-    new CopyWebpackPlugin(
-      configureCopy()
-    ),
-    new webpack.DefinePlugin({
-      PRODUCTION: JSON.stringify(true)
-    }),
-    new BundleAnalyzerPlugin({
-      openAnalyzer: true
-    }),
-  ]
-});
+module.exports = merge(baseConfig,
+  configureTSLoader(),
+  {
+    mode: 'production',
+    output: configureOutput(),
+    target: 'web',
+    devtool: 'source-map',
+    module: {
+      rules: [
+        {
+          test: /\.(css|sass|scss)$/,
+          use: [
+            MiniCssExtractPlugin.loader,
+            ...cssLoaders
+          ],
+        },
+        configureFileLoader()
+      ],
+    },
+    optimization: configureOptimization(),
+    plugins: [
+      new CleanWebpackPlugin({
+        dry: false,
+        verbose: true
+      }),
+      new MiniCssExtractPlugin(
+        configureMiniCssExtract()
+      ),
+      new WorkboxPlugin.GenerateSW(
+        configureSW()
+      ),
+      new CopyWebpackPlugin(
+        configureCopy()
+      ),
+      new webpack.DefinePlugin({
+        PRODUCTION: JSON.stringify(true)
+      }),
+      new BundleAnalyzerPlugin({
+        openAnalyzer: true
+      }),
+    ]
+  });
